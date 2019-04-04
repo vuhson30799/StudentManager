@@ -15,31 +15,31 @@
         </legend>
         <table>
             <tr>
-                <td>Id:</td>
-                <td><input type="text" placeholder="xxxx" name="id"/></td>
+                <td><form:label path="id">Id:</form:label></td>
+                <td><form:input path="id"/></td>
             </tr>
             <tr>
-                <td>Name:</td>
-                <td><input type="text" placeholder="Name" name="name"/></td>
+                <td><form:label path="name">Name:</form:label></td>
+                <td><form:input path="name"/></td>
             </tr>
             <tr>
-                <td>Age:</td>
-                <td><input type="text" placeholder="Age" name="age"/></td>
+                <td><form:label path="Age">Age:</form:label></td>
+                <td><form:input path="age"/></td>
             </tr>
             <tr>
-                <td>Address:</td>
-                <td><input type="text" placeholder="Address" name="address"/></td>
+                <td><form:label path="address">Address:</form:label></td>
+                <td><form:input path="address"/></td>
             </tr>
             <tr>
-                <td>Sex:</td>
-                <td><input type="text" placeholder="Sex" name="sex"/></td>
+                <td><form:label path="sex">Sex:</form:label></td>
+                <td><form:input path="sex"/></td>
             </tr>
             <tr>
-                <td>Class:</td>
-                <td><input type="text" placeholder="class" name="studentClass"/></td>
+                <td><form:label path="studentClass">Class:</form:label></td>
+                <td><form:input path="studentClass"/></td>
             </tr>
         </table>
-        <input type="submit" value="Create New Student"/>
+        <form:button>Input This Student</form:button>
     </fieldset>
 </form:form>
 </body>

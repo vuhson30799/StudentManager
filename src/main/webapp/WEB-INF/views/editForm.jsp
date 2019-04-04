@@ -16,7 +16,8 @@
         <table>
             <tr>
                 <td><form:label path="id">Id:</form:label></td>
-                <td><form:input path="id"/></td>
+                <td>${student.id}</td>
+                <td style="display: none"><form:input path="id"/></td>
             </tr>
             <tr>
                 <td><form:label path="name">Name:</form:label></td>

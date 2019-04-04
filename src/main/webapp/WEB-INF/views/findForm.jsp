@@ -9,7 +9,7 @@
 <body>
 <p><a href="/list">Back to student list</a> </p>
 <h1>Find Student By Id</h1>
-<form:form action="find" method="post" modelAttribute="student">
+<form:form action="find" method="post" modelAttribute="findForm">
     <fieldset>
         <legend>
             ID
@@ -24,14 +24,14 @@
     </fieldset>
 </form:form>
 <h1>Find Student By Name</h1>
-<form:form action="find" method="post" modelAttribute="student">
+<form:form action="find" method="post" modelAttribute="findForm">
     <fieldset>
         <legend>
             Name
         </legend>
         <table>
             <tr>
-                <td><form:label path="name">Id:</form:label></td>
+                <td><form:label path="name">Name:</form:label></td>
                 <td><form:input path="name"/></td>
             </tr>
         </table>
